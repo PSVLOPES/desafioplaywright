@@ -12,7 +12,7 @@ Não é necessário escrever casos de teste completos. Liste apenas os cenários
 2. Consulta utilizando um número de processo inexistente.
 3. Consulta sem preencher o número do processo.
 4. Consulta utilizando um número de processo com menos de 20 dígitos.
-5. Validação do CAPTCHA.
+5. Validação das teclas de acesso nos campos do formulário (ALT+).
 6. Consulta cruzada utilizando mais de um filtro, com informações inexistentes ou divergentes.
 
 ---
@@ -24,3 +24,5 @@ Não é necessário escrever casos de teste completos. Liste apenas os cenários
 ### Problema 2 – Consulta cruzada nâo obedecendo os filtros. Basta colocar o numero do processo valido que ele faz a busca independente se coloquei a informação no outro filtro de acordo com o número do processo.
 
 ### Problema 3 – Se nao preencho o numero do processo e preencho algum dos outros campos, ele só está dizendo que o campo numero do processo é obrigatório no campo chave processo.
+
+### Problema 4 - Acess Key não funcionando nos campos (Chave Documento, CPF)
